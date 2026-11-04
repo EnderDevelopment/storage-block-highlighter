@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "storagehighlighter",
+  "version": "${version}",
+  "name": "Storage Highlighter",
+  "description": "Highlights storage blocks when they contain items",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/storagehighlighter"
+  },
+  "license": "MIT",
+  "icon": "assets/storagehighlighter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.storagehighlighter.StorageHighlighterMod"
+    ]
+  },
+  "mixins": [
+    "storagehighlighter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
